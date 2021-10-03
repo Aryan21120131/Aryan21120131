@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link tag of css to use external css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Task-2</title>
+    <!-- internal CSS -->
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            margin-top: 10px;
+            background-color: #333;
+            color: white;
+            overflow: hidden;
+        }
+        
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+h2{
+    border-radius: 0px 50px ;
+    border: 4px solid black;
+    background-color: rgb(110, 26, 110); 
+    text-align: center; 
+    color: white;
+     padding: 10px; 
+    margin-top: 10px;
+}
+.box{
+    border: 15px solid black;
+    text-align: justify;
+    color: white;
+    margin: 60px 348px ;
+    background-color: rgb(202, 9, 67);
+    padding: 33px;
+font-size: 25px;
+border-style:dotted;
+border-radius: 70px 0px;
+}
+.container {
+            width: 900px;
+            border: 5px solid black;
+            background-color: rgb(134, 89, 240);
+            margin: 33px auto;
+            color: white;
+            padding: 15px;
+            border-radius: 70px 0px;
+        }
+        .item{
+            border: 5px solid black;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(202, 9, 67);
+            border-radius: 25px;
+            
+        }
+        #html {
+            float: left;
+            width: 48%;
+        }
+        
+        #css {
+            float: right;
+            width: 48%;
+        }
+
+        #js {
+            clear: both;
+            width: 100%;
+        }
+        h3 {
+            text-align: justify;
+            text-decoration: underline overline;
+            text-align: center;
+            font-size: 25px;
+        }
+        p{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Study Material</a>
+        <a href="#">Log In</a>
+    </nav>
+    <!-- use of Inline CSS over here -->
+    <h1 style="background-color: violet; text-align: center; color: white; padding: 10px; margin-top: 10px; border: 4px solid black;
+    border-radius: 50px 0px ;">SIG WEB</h1>
+    <h2>Task-2</h2>
+
+    <div class="box">
+        <u><h3 style="text-align: center;">Task Given</h3></u>
+<ol>
+    <li>Inline, Internal and external CSS</li>
+    <li>Font color, Background and border properties of CSS. </li>
+    <li>Chrome Developer Tools.</li>
+    <li>CSS box model, margin and padding in CSS.</li>
+    <li>Float and clear properties of CSS.</li>
+</ol>
+</div>
+<div class="container">
+    <h1 style="text-align: center;text-decoration: underline overline; margin-top: 10px; font-size: 40px;">Web Development</h1>
+    <div id="html" class="item">
+        <h3>HTML</h3>
+        <p >HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+            "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+    </div>
+    <div id="css" class="item">
+        <h3>CSS</h3>
+        <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+            CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the latest recommendations. </p>
+    </div>
+    <div id="js" class="item">
+        <h3>JavaScript</h3>
+        <p >JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
+            This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about API specifics to Web pages, please see Web APIs and DOM.</p>
+    </div>
+</div>
+<footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">&copy; 2021 | Aman Gupta</a>
+  </footer>
+</body>
+</html>
